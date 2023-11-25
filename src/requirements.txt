@@ -1,8 +1,5 @@
 streamlit
 streamlit-wallet-connect
 streamlit-option-menu
-time
 web3
-os
-json
 streamlit-card
