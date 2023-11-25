@@ -1,6 +1,6 @@
 streamlit
 wallet_connect
-streamlit_option_menu
+streamlit-option-menu
 time
 web3
 os
