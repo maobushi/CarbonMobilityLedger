@@ -14,7 +14,7 @@ from login import user_wallet_address
 
 
 def lobby_page():
-	st.title("Carbon Token App")
+	st.title("Carbon Drive App")
 	selected2 = option_menu(None, ["Home", "Buy", "Drive", 'Charge','Plant'], 
 		icons=['house', 'cart', 'car-front', 'battery-charging' , 'tree-fill'], 
 		menu_icon="cast", default_index=0, orientation="horizontal")

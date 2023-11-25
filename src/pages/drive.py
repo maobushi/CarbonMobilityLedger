@@ -2,6 +2,9 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 import time
+from web3.exceptions import TransactionNotFound
+import os
+from initialdata import contract_address, contract_abi,  contract_object , private_key, infura_url, web3
 
 def drive_page():
 	# セッションステートの初期化
@@ -40,7 +43,7 @@ def drive_page():
 		current_time = datetime.now()
 		time_diff = (current_time - st.session_state.start_time).total_seconds()
 		st.session_state.distance = time_diff / 30  # 30秒に1km
-		st.session_state.earned_tokens = st.session_state.distance * 10  # 1kmあたり10CBT
+		st.session_state.earned_tokens = st.session_state.distance * 1  # 1kmあたり10CBT
 
 		total_time = (datetime.now() - st.session_state.start_time).total_seconds()
 		col1, col2, col3 = st.columns(3)
@@ -49,11 +52,40 @@ def drive_page():
 		col3.metric("走行時間", f"{total_time:.2f} 秒")
 
 		# 運転停止ボタン（運転開始時のみ表示）
+		
+		# 運転停止ボタン（運転開始時のみ表示）
 		if st.button('運転停止'):
 			st.session_state.is_driving = False
-			st.session_state.total_distance += st.session_state.distance
+			distance_driven = st.session_state.distance
+			st.session_state.total_distance += distance_driven
 			st.session_state.total_earned_tokens += st.session_state.earned_tokens
 			st.session_state.total_time += (datetime.now() - st.session_state.start_time).total_seconds()
+
+			# トランザクションの構築と送信
+			user_wallet_address = st.session_state.user_wallet_address
+			nonce = web3.eth.get_transaction_count(user_wallet_address)
+			distance_driven_wei = int(distance_driven * 1e18)  # Wei単位への変換
+			transaction = contract_object.functions.driveCar(distance_driven_wei).build_transaction({
+				'chainId': 5,
+				'gas': 2000000,
+				'gasPrice': web3.to_wei('50', 'gwei'),
+				'from': user_wallet_address,
+				'nonce': nonce
+			})
+			# トランザクションの署名
+			private_key = os.environ['METAMASK_DEV_PRIVATE']
+			signed_txn = web3.eth.account.sign_transaction(transaction, private_key)
+
+			# トランザクションの送信
+			try:
+				tx_hash = web3.eth.send_raw_transaction(signed_txn.rawTransaction)
+				tx_receipt = web3.eth.wait_for_transaction_receipt(tx_hash, timeout=120)
+				if tx_receipt.status == 1:
+					st.success(f"走行手続きが完了しました。トランザクションハッシュ: {tx_hash.hex()}")
+				else:
+					st.error("トランザクションが失敗しました。")
+			except TransactionNotFound:
+				st.error("トランザクションが見つかりませんでした。")
 
 		# 合計のメトリクスを表示
 		col1, col2, col3 = st.columns(3)

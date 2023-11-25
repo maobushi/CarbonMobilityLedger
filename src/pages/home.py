@@ -42,11 +42,12 @@ def home_page():
 
 	# スマートコントラクトから返されるバランスを取得
 	raw_cbt_balance = contract_object.functions.balanceOf(checksum_address).call()
+	distance = contract_object.functions.getDistance(checksum_address).call()
 
 	# 取得したバランスの値を表示して確認
 
 	# Ether単位に変換
-	cbt_balance = raw_cbt_balance / 1e35
+	cbt_balance = raw_cbt_balance / 1e34
 	cbt_balance_formatted = "{:.0f}".format(cbt_balance)
 
 
@@ -66,8 +67,7 @@ def home_page():
 	#cbt_num = f"{cbt_balance_formatted} <span style='font-size: 36px; font-weight: bold;'>CBT</span>"
 	st.empty()
 	st.text("")
-	# HTMLテンプレートの作成と埋め込み
-	# HTMLテンプレートの作成と埋め込み
+	
 	cbt_balance_formatted = f"{cbt_balance_formatted} <span style='font-size: 36px; font-weight: bold;'>CBT</span>"
 	html_template_cbt = """
 		<div style="position: relative; text-align: center; color: white;">
@@ -79,6 +79,24 @@ def home_page():
 	"""
 	html_cbt = html_template_cbt.format(cbt_balance_formatted)
 	st.markdown(html_cbt, unsafe_allow_html=True)
+
+
+	st.empty()
+	st.text("")
+	distance = distance / (10 ** 18)
+	distance = f"{distance:.1f} <span style='font-size: 36px; font-weight: bold;'>km</span>"
+	html_distance = """
+		<div style="position: relative; text-align: center; color: white;">
+		<img src="https://pbs.twimg.com/media/F_vq-tnbIAAAEwt?format=jpg&name=large" alt="Your Image" style="width:100%; height: 150px; border-radius: 10px; object-fit: cover;">
+		<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+			<span style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; font-size: 70px; font-weight: bold; white-space: nowrap;">{}</span>
+		</div>
+		</div>
+	"""
+	html_cbt = html_distance.format(distance)
+	st.markdown(html_cbt, unsafe_allow_html=True)
+
+
 
 
 
