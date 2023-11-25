@@ -2,7 +2,6 @@ import streamlit as st
 from wallet_connect import wallet_connect
 from streamlit_option_menu import option_menu
 import time
-import streamlit as st
 from web3 import Web3
 import os
 
