@@ -28,7 +28,7 @@ Project Name:CarbonDrive App
 
 ある$i$年の1年間の新車購入台数を$N_{i}$台とし, 市場成長率を$\alpha$, 新車$k$の価格を$p_{i}^{k}$とすると, 
 ```math
-amount~of~mint = \sum^{\infin}_{i = 1} \sum^{K}_{k = 1} \left(p^{k}_{i} \times N_{i} \times \frac{\beta}{100}\right)
+amount~of~mint = \sum^{\infini}_{i = 1} \sum^{K}_{k = 1} \left(p^{k}_{i} \times N_{i} \times \frac{\beta}{100}\right)
 ```
 となります. ここで市場成長率 $\alpha$ = $\frac{p_i N_i}{p_{i-1}N_{i-1}}$である.
 
