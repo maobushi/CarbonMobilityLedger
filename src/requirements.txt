@@ -1,0 +1,9 @@
+streamlit
+wallet_connect
+streamlit_option_menu
+time
+web3
+os
+json
+streamlit_card
+web3.exceptions
