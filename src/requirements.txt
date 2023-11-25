@@ -1,5 +1,5 @@
 streamlit
-wallet-connect
+streamlit-wallet-connect
 streamlit-option-menu
 time
 web3
