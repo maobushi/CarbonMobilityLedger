@@ -5,5 +5,4 @@ time
 web3
 os
 json
-streamlit_card
-web3.exceptions
+streamlit-card
