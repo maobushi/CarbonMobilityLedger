@@ -2,6 +2,9 @@
 ---------------------------------------
 mobile_app：[Carbon Drive App - web]()
 
+[![Introduction Movie](http://img.youtube.com/vi/G9VQYpX-wT4/0.jpg)](http://www.youtube.com/watch?v=G9VQYpX-wT4)
+
+
 ## **What It Does**
 Project Name:CarbonDrive App
 > "Your Miles Matter: Move Smart, Earn Smart"
