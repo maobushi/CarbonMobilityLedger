@@ -4,6 +4,9 @@ mobile_app：[Carbon Drive App - web]()
 
 [![Introduction Movie](http://img.youtube.com/vi/G9VQYpX-wT4/0.jpg)](http://www.youtube.com/watch?v=G9VQYpX-wT4)
 
+## How to run
+- Streamlitをインストールし、METAMASK Walletの秘密鍵を"METAMASK_DEV_PRIVATE"という名前で環境変数に格納します。
+- streamlit run src/main.pyでlocalで動作します。
 
 ## **What It Does**
 Project Name:CarbonDrive App
