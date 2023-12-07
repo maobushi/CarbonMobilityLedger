@@ -25,9 +25,8 @@
     - **樹木の植樹**: CBTを使用して、環境保存活動に寄付することができます。具体的には植樹が行われます。ユーザーは植樹への寄付を行うことで、車のレベルを上げることができます。
 ### Tokenomics
 #### OverView
-
+![carbbon-drive-white (2)](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/9272570d-b16b-4df9-b2e9-3e4cb027166b)
 - **minting(新規発行)**
-![carbbon-drive-white (1)](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/3b38ee74-c3a6-4a64-90ae-fa53e4e3799a)
 
 新車の購入により新規CBTがmintされます。 $\beta$ %がUserへ配布され、 $(1-\beta)$ %がpoolに入ります。ここでは $\beta = 10$ %と設定しています。
 1年間の新規発行は「その年の新車の購入台数 $\times$ 新車価格」です。
@@ -116,12 +115,16 @@ CBTの主なユースケースはバッテリーの充電時の支払いに使�
 
 
 ## **What's Next for Carbon Drive App**
-
+- Tokenenomicsの充実
+  - Governance Tokenの導入：X to Earnの走りであるMove to Earnという概念を作り出したStepnのTokenomicsを参考にGamification/Game-Fiを導入することで、市場でのトークンの価値、時価総額が高まることで、新規ユーザーの参入と頑健なTokenomicsが見込める。さらにこれはStepnのvirtualなスニーカーアイテムとは異なり、RWA:Real World Assetと実生活での需要が存在する点が特に、異なる点であり、ありがちなPonsi化を防ぐ要因となっている点が新しい。
+  - Token需要の増加は新車の販売促進にもつながりうる点も特筆すべきで点である。
 - **個人の環境保護スコア**:CBTを使用して車のレベルを上げるのと同時に、個人は車のレベルを上げた差分の経験値が溜まり、個人の環境保護スコアが上がるようになる。
 - **スマートシティへの応用**:電車やバイク、電動キックボード等、モビリティとそのCO2排出量の削減度合いに応じてCBTを発行することで、前述の個人の環境保護スコアをより拡張性の高い指標とすることができる。
 - **GorvananceとDAO化**:Utility TokenであるCBTだけでなく、Governance Tokenを導入することで、CBT市場とGovernance Token市場が接続される。
 - **コミュニティ構築**: ユーザーとの連携を強化し、より広範なコミュニティを形成。
 - **持続可能性の向上**: 環境への影響をさらに減らすための継続的な改善。
+- **環境問題以外への対応**：今回は、Carbon CreditやCarbonの市場に着目したが、環境問題ではなく、MAZDA社へのファンレベルとも読み替えることができ、同様の議論、アーキテクチャが利用できる。その際にはEV以外の内燃機関の自動車などとの関連も見込める。
+- ****
 
 ## **Examples of Application to the Real World**
 - [エコな交通手段で報酬がもらえる「CitiCAP」フィンランドの環境先進都市によるモビリティ活用](https://ideasforgood.jp/2019/11/21/lahti-citicap/)
