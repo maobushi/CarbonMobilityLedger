@@ -34,7 +34,9 @@ Project Name:CarbonDrive App
 ```
 となります. ここで市場成長率 $\alpha$ = $\frac{p_i N_i}{p_{i-1}N_{i-1}}$ である.
 また、ある$i$年の市場の供給量は以下のようになる
+```math
 \[ \text{Total Minting in Year } i = \sum_{k = 1}^{K} \left( p_i^k \times N_i \times \frac{\beta}{100} \right) \]
+```
 
 
 Distance Ratio(DR)
