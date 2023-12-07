@@ -28,6 +28,7 @@ Project Name:CarbonDrive App
 ### Tokenomics
 #### OverView
 - **minting(新規発行)**
+![carbbon-drive-white](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/df66f244-73b5-425a-a4bc-218fdf055646)
 新車の購入により新規CBTがmintされます。 $\beta$ %がUserへ配布され、 $(1-\beta)$ %がpoolに入ります。ここでは $\beta = 10$ %と設定しています。
 1年間の新規発行は「その年の新車の購入台数 $\times$ 新車価格」です。
 
