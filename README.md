@@ -1,4 +1,4 @@
-![Sparkle](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/54c299c7-5b0d-4a29-87bb-d7e6e94b0e5e)# CarbonMobilityLedger
+# CarbonMobilityLedger
 ---------------------------------------
 mobile_app：[Carbon Drive App - web]()
 
@@ -13,8 +13,6 @@ Project Name:CarbonDrive App
 > "Your Miles Matter: Move Smart, Earn Smart"
 
 ![Sparkle](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/45e11064-9a2f-40e4-b465-f398bcf4f120)
-
-![image](https://file.notion.so/f/f/cbd8d2ac-f8fa-4a42-ad57-f522c59b7c01/3a48f718-5246-4e2c-87c6-6635bb0ebb82/Sparkle.png?id=a0f540ba-3fcd-47ad-a502-160530e24986&table=block&spaceId=cbd8d2ac-f8fa-4a42-ad57-f522c59b7c01&expirationTimestamp=1700956800000&signature=BcULGbsMAVS85P8KgPdMUtSGidE1WCU-3RonPuYIoLI&downloadName=Sparkle.png)
 
 - **概要**: このプロジェクト "CarbonDrive App" は、EVM互換性のあるパブリックブロックチェーンを使用して、持続可能な移動手段を奨励する「Mobility Carbon Credit」システムを実装します。このシステムでは独自トークンを用いた経済圏を設計することで、自動車を運転することへのインセンティブ、車自体のレベルアップを通じてNFT化された車の価値が変動し、中古車販売価格の下落を防ぐメカニズムを導入します。さらに将来、業界全体において環境性能の高いEVへのシフトを見据え、新規EV購入を促進し、運転を楽しんでいただくためのソリューションを提供します。
 
