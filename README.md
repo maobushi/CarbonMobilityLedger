@@ -12,7 +12,7 @@ mobile_app：[Carbon Drive App - web]()
 Project Name:CarbonDrive App
 > "Your Miles Matter: Move Smart, Earn Smart"
 
-<img width="1060" alt="techmap" src="https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/84d73fe0-3027-43c8-98e9-28ae591af559">
+![Sparkle](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/45e11064-9a2f-40e4-b465-f398bcf4f120)
 
 ![image](https://file.notion.so/f/f/cbd8d2ac-f8fa-4a42-ad57-f522c59b7c01/3a48f718-5246-4e2c-87c6-6635bb0ebb82/Sparkle.png?id=a0f540ba-3fcd-47ad-a502-160530e24986&table=block&spaceId=cbd8d2ac-f8fa-4a42-ad57-f522c59b7c01&expirationTimestamp=1700956800000&signature=BcULGbsMAVS85P8KgPdMUtSGidE1WCU-3RonPuYIoLI&downloadName=Sparkle.png)
 
