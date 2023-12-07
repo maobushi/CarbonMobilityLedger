@@ -36,7 +36,7 @@
 \text{Amount~of~Mint} = \sum^{\infty}_{i = 1} \sum^{K}_{k = 1} \left(p^{k}_{i} \times N_{i} \times \frac{\beta}{100}\right)
 ```
 となります. ここで市場成長率 $\alpha$ = $\frac{p_i N_i}{p_{i-1}N_{i-1}}$ である.
-また、ある$i$年の市場の供給量は以下のようになる
+また、ある $i$ 年の市場の供給量は以下のようになる
 ```math
 \text{Total Minting in Year } i = \sum_{k = 1}^{K} \left( p_i^k \times N_i \times \frac{\beta}{100} \right)
 ```
