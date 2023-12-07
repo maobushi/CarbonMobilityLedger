@@ -55,6 +55,7 @@ Distance Ratio(DR)
      - $DR_i$ ： $l$ レベルの車におけるDistance Ratio (CBT/km)
      - $D$ ：走行距離 (km) 
     走行によるCBTの獲得量は以下のようになります：
+
     ```math
     \text{CBT Earning} = DR_{i} \times D
     ```
