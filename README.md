@@ -70,6 +70,9 @@ CBTの主なユースケースはバッテリーの充電時の支払いに使�
 - **Solidity**: Ethereumのスマートコントラクトを開発するためのプログラミング言語。
 - **streamlit**: データの可視化と分析を行うためのWebアプリケーションフレームワーク。
 - **Astar**: EVM互換性を持つパブリックブロックチェーンを構築するためのプラットフォーム。
+- **Infura**: Ethereumノードをホストするためのプラットフォーム。
+- **Metamask**: Ethereumネットワークに接続するためのウォレット。
+- **Python**: データ分析と可視化のためのプログラミング言語。
 
 ## **How We Built It**
 
@@ -89,6 +92,9 @@ CBTの主なユースケースはバッテリーの充電時の支払いに使�
 - **GorvananceとDAO化**:Utility TokenであるCBTだけでなく、Governance Tokenを
 - **コミュニティ構築**: ユーザーとの連携を強化し、より広範なコミュニティを形成。
 - **持続可能性の向上**: 環境への影響をさらに減らすための継続的な改善。
+
+## **Examples of Application to the Real World**
+- [エコな交通手段で報酬がもらえる「CitiCAP」フィンランドの環境先進都市によるモビリティ活用](https://ideasforgood.jp/2019/11/21/lahti-citicap/)
 
 ### Contact
 @maobushi
