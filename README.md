@@ -12,7 +12,7 @@ mobile_app：[Carbon Drive App - web]()
 Project Name:CarbonDrive App
 > "Your Miles Matter: Move Smart, Earn Smart"
 
-![Sparkle](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/45e11064-9a2f-40e4-b465-f398bcf4f120)
+<img width="530" alt="image" src="https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/45e11064-9a2f-40e4-b465-f398bcf4f120">
 
 - **概要**: このプロジェクト "CarbonDrive App" は、EVM互換性のあるパブリックブロックチェーンを使用して、持続可能な移動手段を奨励する「Mobility Carbon Credit」システムを実装します。このシステムでは独自トークンを用いた経済圏を設計することで、自動車を運転することへのインセンティブ、車自体のレベルアップを通じてNFT化された車の価値が変動し、中古車販売価格の下落を防ぐメカニズムを導入します。さらに将来、業界全体において環境性能の高いEVへのシフトを見据え、新規EV購入を促進し、運転を楽しんでいただくためのソリューションを提供します。
 
@@ -73,7 +73,7 @@ CBTの主なユースケースはバッテリーの充電時の支払いに使�
 - **Infura**: Ethereumノードをホストするためのプラットフォーム。
 - **Metamask**: Ethereumネットワークに接続するためのウォレット。
 - **Python**: データ分析と可視化のためのプログラミング言語。
-<img width="1060" alt="techmap" src="https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/037e0f6b-8129-4583-a5ef-3c216404459b">
+<img width="530" alt="techmap" src="https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/037e0f6b-8129-4583-a5ef-3c216404459b">
 
 ## **How We Built It**
 
