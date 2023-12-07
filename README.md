@@ -1,18 +1,19 @@
 # CarbonMobilityLedger
----------------------------------------
-mobile_app：[Carbon Drive App - web]()
 
 [![Introduction Movie](http://img.youtube.com/vi/G9VQYpX-wT4/0.jpg)](http://www.youtube.com/watch?v=G9VQYpX-wT4)
 
 ## **What It Does**
-Project Name:CarbonDrive App
-> "Your Miles Matter: Move Smart, Earn Smart"
+"Your Miles Matter: Move Smart, Earn Smart"
 
 <img width="530" alt="image" src="https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/45e11064-9a2f-40e4-b465-f398bcf4f120">
 
-- **概要**: このプロジェクト "CarbonDrive App" は、EVM互換性のあるパブリックブロックチェーンを使用して、持続可能な移動手段を奨励する「Mobility Carbon Credit」システムを実装します。このシステムでは独自トークンを用いた経済圏を設計することで、自動車を運転することへのインセンティブ、車自体のレベルアップを通じてNFT化された車の価値が変動し、中古車販売価格の下落を防ぐメカニズムを導入します。さらに将来、業界全体において環境性能の高いEVへのシフトを見据え、新規EV購入を促進し、運転を楽しんでいただくためのソリューションを提供します。
+
+- このプロジェクト "CarbonDrive App" は、EVM互換性のあるパブリックブロックチェーンを使用して、持続可能な移動手段を奨励する「Mobility Carbon Credit」システムを実装します。
+- このシステムでは独自トークンを用いた経済圏を設計することで、自動車を運転することへのインセンティブ、車自体のレベルアップを通じてNFT化された車の価値が変動し、中古車販売価格の下落を防ぐメカニズムを導入します。
+- さらに将来、業界全体において環境性能の高いEVへのシフトを見据え、新規EV購入を促進し、運転を楽しんでいただくためのソリューションを提供します。
 
 ## Features
+![carbbon-drive-white](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/df66f244-73b5-425a-a4bc-218fdf055646)
 走行距離と車のレベルに応じて、CarBon Token（CBT）が付与され、そのCBTはバッテリーの給電や植樹事業に使用することができます。
 - **CBTの主な機能**;
   - Tokenを入手する
@@ -24,7 +25,7 @@ Project Name:CarbonDrive App
 ### Tokenomics
 #### OverView
 - **minting(新規発行)**
-![carbbon-drive-white](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/df66f244-73b5-425a-a4bc-218fdf055646)
+
 新車の購入により新規CBTがmintされます。 $\beta$ %がUserへ配布され、 $(1-\beta)$ %がpoolに入ります。ここでは $\beta = 10$ %と設定しています。
 1年間の新規発行は「その年の新車の購入台数 $\times$ 新車価格」です。
 
@@ -105,19 +106,11 @@ CBTの主なユースケースはバッテリーの充電時の支払いに使�
 - **Python**: データ分析と可視化のためのプログラミング言語。
 <img width="530" alt="techmap" src="https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/037e0f6b-8129-4583-a5ef-3c216404459b">
 
-## **How We Built It**
 
-- **開発プロセス**: まず、システムの概念を定義し、次にSolidityを使用してスマートコントラクトを開発しました。
-- **チームワーク**: チームメンバーが各自の専門知識を活用して、プロジェクトの各部分を担当しました。
 
 ## How to run
 - Streamlitをインストールし、METAMASK Walletの秘密鍵を"METAMASK_DEV_PRIVATE"という名前で環境変数に格納します。
 - streamlit run src/main.pyでlocalで実行します。
-
-## **What We Learned**
-
-- **ブロックチェーンの応用**: EthereumとSolidityに関する深い知識。
-- **チームワーク**: 複数の専門分野が協力することの重要性と効果。
 
 
 ## **What's Next for Carbon Drive App**
