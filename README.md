@@ -14,6 +14,7 @@
 
 ## Features
 ![carbbon-drive-white](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/df66f244-73b5-425a-a4bc-218fdf055646)
+
 走行距離と車のレベルに応じて、CarBon Token（CBT）が付与され、そのCBTはバッテリーの給電や植樹事業に使用することができます。
 - **CBTの主な機能**;
   - Tokenを入手する
