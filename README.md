@@ -73,6 +73,7 @@ CBTの主なユースケースはバッテリーの充電時の支払いに使�
 - **Infura**: Ethereumノードをホストするためのプラットフォーム。
 - **Metamask**: Ethereumネットワークに接続するためのウォレット。
 - **Python**: データ分析と可視化のためのプログラミング言語。
+<img width="1060" alt="techmap" src="https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/037e0f6b-8129-4583-a5ef-3c216404459b">
 
 ## **How We Built It**
 
