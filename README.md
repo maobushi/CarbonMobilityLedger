@@ -32,11 +32,12 @@
 新車の購入により新規CBTがmintされます。 $\beta$ %がUserへ配布され、 $(1-\beta)$ %がpoolに入ります。ここでは $\beta = 10$ %と設定しています。
 1年間の新規発行は「その年の新車の購入台数 $\times$ 新車価格」です。
 
-ある $i$ 年の1年間の新車購入台数を $N_{i}$ 台とし, 市場成長率を $\alpha$ , 新車$k$の価格を $p_{i}^{k}$ とし、市場成長率や割引率などを無視した全体での供給量は以下のように表せられる, 
+ある $i$ 年の1年間の新車購入台数を $N_{i}$ 台とし, 市場成長率を $\alpha$ , 新車$k$の価格を $p_{i}^{k}$ とし、市場成長率や割引率などを無視した全体での供給量は以下のように表せられる.
 ```math
 \text{Amount~of~Mint} = \sum^{\infty}_{i = 1} \sum^{K}_{k = 1} \left(p^{k}_{i} \times N_{i} \times \frac{\beta}{100}\right)
 ```
-となります. ここで市場成長率 $\alpha$ = $\frac{p_i N_i}{p_{i-1}N_{i-1}}$ である.
+ここで市場成長率 $\alpha$ = $\frac{p_i N_i}{p_{i-1}N_{i-1}}$ である.
+
 また、ある $i$ 年の市場の供給量は以下のようになる
 ```math
 \text{Total Minting in Year } i = \sum_{k = 1}^{K} \left( p_i^k \times N_i \times \frac{\beta}{100} \right)
