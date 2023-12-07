@@ -25,7 +25,8 @@
     - **樹木の植樹**: CBTを使用して、環境保存活動に寄付することができます。具体的には植樹が行われます。ユーザーは植樹への寄付を行うことで、車のレベルを上げることができます。
 ### Tokenomics
 #### OverView
-![carbbon-drive-white (2)](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/9272570d-b16b-4df9-b2e9-3e4cb027166b)
+![carbbon-drive-white (3)](https://github.com/maobushi/CarbonMobilityLedger/assets/28808890/f9dd62bf-253b-4a9b-ab06-1dae43cf0f81)
+
 - **minting(新規発行)**
 
 新車の購入により新規CBTがmintされます。 $\beta$ %がUserへ配布され、 $(1-\beta)$ %がpoolに入ります。ここでは $\beta = 10$ %と設定しています。
@@ -42,7 +43,7 @@
 ```
 
 
-Distance Ratio(DR)
+Distance Ratio(DR) (example)
 | Car Level  |      DR     | Estimation Distance|
 |:-----------|------------:|-------------:|
 | Level 0    | 0.10CBT/km  | 0km          |
